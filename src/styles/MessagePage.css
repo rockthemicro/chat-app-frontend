@@ -1,0 +1,116 @@
+div {
+    display: block;
+}
+
+.chat-page {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.58;
+    color: #333;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.chat-container {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    margin-top: 30px;
+    height: calc(100% - 60px);
+    max-height: 600px;
+    position: relative;
+}
+
+.chat-header {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ececec;
+    box-sizing: border-box;
+}
+
+.chat-header h2 {
+    margin: 0;
+}
+
+.message-area {
+    display: block;
+    list-style-type: none;
+    background-color: #FFF;
+    margin: 0;
+    overflow: auto;
+    overflow-y: scroll;
+    padding: 0 20px 0px 20px;
+    height: calc(100% - 150px);
+}
+
+.message {
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+
+}
+
+.message-span {
+    font-weight: 600;
+}
+
+.message-paragraph {
+    margin: 0;
+}
+
+.message-form {
+    padding: 20px;
+    display: block;
+    margin-top: 0em;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-text {
+    min-height: 38px;
+    font-size: 15px;
+    border: 1px solid #c8c8c8;
+    float: left;
+    width: calc(100% - 85px);
+
+    box-sizing: border-box;
+}
+
+.send-button {
+    border: 1px solid transparent;
+    font-size: 14px;
+    outline: none;
+    line-height: 100%;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0.6rem 1rem;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    min-height: 38px;
+
+    background-color: #128ff2;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+
+    float: right;
+    width: 80px;
+    height: 38px;
+    margin-left: 5px;
+}
